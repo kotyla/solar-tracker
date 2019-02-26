@@ -1,0 +1,12 @@
+sCmd.addCommand("SetTime", set_time_command);
+sCmd.addCommand("GetTime", get_time_command);
+sCmd.addCommand("GetCoordinates", get_coordinates_command);
+sCmd.addCommand("SetCoordinates", set_coordinates_command);
+sCmd.addCommand("GetAngleCorrection", get_angle_correction_command);
+sCmd.addCommand("SetAngleCorrection", set_angle_correction_command);
+sCmd.addCommand("GetPosition", get_position_command);
+sCmd.addCommand("Status", status_command);
+sCmd.addCommand("Reboot", reboot_command);
+sCmd.addCommand("SS", set_servo_command);
+sCmd.addCommand("Calibrate", calibrate_command);
+sCmd.addCommand("SA", set_azimuth_command);
